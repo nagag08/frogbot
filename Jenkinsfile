@@ -1,5 +1,5 @@
-// Run the job every 5 minutes 
-CRON_SETTINGS = '''H/5 * * * *'''
+// Run the job every 30 minutes 
+CRON_SETTINGS = '''H/30 * * * *'''
 pipeline {
     agent any
     triggers {
